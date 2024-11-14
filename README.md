@@ -3,7 +3,7 @@ The macro embedded in the sheet ‘Compute’  calculates tree-stock per hector 
 Kevin Mitchell, Department of Mathematics and Computer Science,
 Hobart and William Smith Colleges, Geneva, NY 14456; 
  mitchell@hws.edu ;  25 June 2007. 
-Data may be copied from an already populated EXCEL sheet with three columns namely : Name of the tree species, Distance ( in meter) of the tree from the observation point i.e. the origin of the quarter and GBH in cm.
+Data may be copied from an already populated EXCEL sheet with three columns namely : Name of the tree species, Distance ( in meter) of the tree from the observation point i.e. the origin of the quarter and GBH in cm. If for a tree there are more than one branch then effective GBH will have to be calculated using the formula GBH= √(∑Cn * Cn) where n =1,2...number of total branches. This value of GBH should be used for that particular tree.
 Paste this data in the three columns in this sheet under appropriate headings. 
 Enter number of observation points and hit tab. It will show number of quarters.
 Enter number of Vacant Quarters.
